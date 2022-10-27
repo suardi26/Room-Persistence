@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Room-Persistence</string>
+    <string name="name">%1$s</string>
+    <string name="save">SAVE</string>
+    <string name="note">%1$s</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_note">%1$s</string>
+    <string name="hint_note">Note</string>
+</resources>
