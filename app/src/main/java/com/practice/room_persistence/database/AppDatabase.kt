@@ -7,5 +7,5 @@ import com.practice.room_persistence.entity.Note
 
 @Database(entities = [Note::class], version = 1)
 abstract class AppDatabase: RoomDatabase() {
-    abstract fun noteDao(): NoteDao
+    abstract fun getNoteDao(): NoteDao
 }

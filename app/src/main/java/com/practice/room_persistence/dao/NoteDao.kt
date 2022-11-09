@@ -7,17 +7,17 @@ import com.practice.room_persistence.entity.Note
 @Dao
 interface NoteDao {
     @Insert
-    fun insert(note: Note)
+    suspend fun insert(note: Note)
 
     @Query("SELECT * FROM notes")
     fun getListNotes(): LiveData<List<Note>>
 
     @Query("SELECT * FROM notes WHERE id =:noteId")
-    fun getNote(noteId: Int): Note
+    suspend fun getNote(noteId: Int): Note
 
     @Update
-    fun updateNote(note: Note)
+    suspend fun updateNote(note: Note)
 
     @Delete
-    fun delete(note: Note): Int
+    suspend fun delete(note: Note)
 }

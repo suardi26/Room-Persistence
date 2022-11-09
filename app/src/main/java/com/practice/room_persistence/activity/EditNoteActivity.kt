@@ -10,7 +10,9 @@ import androidx.activity.viewModels
 import com.practice.room_persistence.databinding.ActivityEditNoteBinding
 import com.practice.room_persistence.entity.Note
 import com.practice.room_persistence.model.NoteViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class EditNoteActivity : AppCompatActivity() {
     companion object{
         const val UPDATE_NOTE = "UPDATE"

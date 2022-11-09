@@ -14,8 +14,9 @@ import com.practice.room_persistence.adapter.NoteAdapter
 import com.practice.room_persistence.databinding.ActivityMainBinding
 import com.practice.room_persistence.entity.Note
 import com.practice.room_persistence.model.NoteViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

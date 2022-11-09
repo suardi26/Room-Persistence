@@ -7,14 +7,14 @@ import android.text.TextUtils
 import android.widget.Toast
 import com.practice.room_persistence.databinding.ActivityCreateNoteBinding
 import com.practice.room_persistence.entity.Note
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class CreateNoteActivity : AppCompatActivity() {
     companion object{
         const val NEW_NOTE = "NEW_NOTE"
         const val RESULT_CODE = 10
     }
-
 
     private lateinit var binding: ActivityCreateNoteBinding
 
