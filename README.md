@@ -3,6 +3,7 @@
 ### Library
 
  - Room Version 2.5.0-alpha01
+ - Dagger Hilt Version 2.44
 
 ### Software :
 
